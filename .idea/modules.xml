@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/account-service/account-service.iml" filepath="$PROJECT_DIR$/account-service/account-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration-service/configuration-service.iml" filepath="$PROJECT_DIR$/configuration-service/configuration-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/email-service/email-service.iml" filepath="$PROJECT_DIR$/email-service/email-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otp-service/otp-service.iml" filepath="$PROJECT_DIR$/otp-service/otp-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otp-service_child1/otp-service (1).iml" filepath="$PROJECT_DIR$/otp-service_child1/otp-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/otp-service_child2/otp-service (2).iml" filepath="$PROJECT_DIR$/otp-service_child2/otp-service (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxy_service/proxy_service.iml" filepath="$PROJECT_DIR$/proxy_service/proxy_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/registry-service/registry-service.iml" filepath="$PROJECT_DIR$/registry-service/registry-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-Microservice.iml" filepath="$PROJECT_DIR$/.idea/spring-Microservice.iml" />
+    </modules>
+  </component>
+</project>

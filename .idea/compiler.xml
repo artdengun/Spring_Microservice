@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="proxy_service" />
+        <module name="configuration-service" />
+        <module name="registry-service" />
+        <module name="otp-service (1)" />
+        <module name="email-service" />
+        <module name="otp-service (2)" />
+        <module name="otp-service" />
+        <module name="account-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-service" target="1.8" />
+      <module name="configuration-service" target="1.8" />
+      <module name="email-service" target="1.8" />
+      <module name="otp-service" target="1.8" />
+      <module name="otp-service (1)" target="1.8" />
+      <module name="otp-service (2)" target="1.8" />
+      <module name="proxy-service" target="1.8" />
+      <module name="proxy_service" target="1.8" />
+      <module name="registry-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account-service" options="-parameters" />
+      <module name="configuration-service" options="-parameters" />
+      <module name="email-service" options="-parameters" />
+      <module name="otp-service" options="-parameters" />
+      <module name="otp-service (1)" options="-parameters" />
+      <module name="otp-service (2)" options="-parameters" />
+      <module name="proxy-service" options="-parameters" />
+      <module name="proxy_service" options="-parameters" />
+      <module name="registry-service" options="-parameters" />
+    </option>
+  </component>
+</project>
