@@ -6,6 +6,7 @@ import com.deni.otpservice.dto.RegisterVerificationDto;
 import com.deni.otpservice.service.OTPService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,6 +26,9 @@ public class OtpController {
         this.environment = environment;
     }
 
+    @Value("${db.string:default}")
+    private String dbString;
+
     @PostMapping("/request")
     public ResponseEntity<?>  requestOTP(@RequestBody RegisterCheckDto registerCheckDto) {
         log.debug("request OTP:  {}", registerCheckDto);
@@ -42,5 +46,10 @@ public class OtpController {
     @PostMapping("/verification")
     public ResponseEntity<?> verificationOTP(@RequestBody RegisterVerificationDto registerVerificationDto)  {
         return otpService.verificationOTP(registerVerificationDto);
+    }
+
+    @GetMapping("/test-profil-config")
+    public String testProfileConfig() {
+        return dbString;
     }
 }
